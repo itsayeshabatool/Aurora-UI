@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora UI Component library demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="back-portfolio" href="https://itsayeshabatool.github.io/Ayesha-Batool2.0/index.html#projects">← Portfolio</a>
+
+  <header class="site-nav">
+    <div class="brand">
+      <strong>Aurora UI</strong>
+    </div>
+    <p class="nav-links">Components Tokens Docs</p>
+  </header>
+
+  <div class="wrap">
+    <p class="intro">Design system showcase in HTML, CSS, and JavaScript.</p>
+
+    <div class="toolbar" role="group" aria-label="Theme">
+      <span class="toolbar-label">Theme</span>
+      <button type="button" class="seg" data-theme-set="light" aria-pressed="false">Aurora</button>
+      <button type="button" class="seg on" data-theme-set="dark" aria-pressed="true">Dusk</button>
+    </div>
+
+    <section aria-labelledby="sec-buttons">
+      <h2 id="sec-buttons">Buttons</h2>
+      <div class="demo-buttons">
+        <button type="button" class="b-primary">Primary</button>
+        <button type="button" class="b-sec">Secondary</button>
+        <button type="button" class="b-ghost">Ghost</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="sec-inputs">
+      <h2 id="sec-inputs">Inputs</h2>
+      <form class="contact-form" action="https://formsubmit.co/itsayeshabatool@gmail.com" method="post">
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="3" placeholder="Your message" required></textarea>
+        </label>
+        <button type="submit" class="form-submit b-primary">Send</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="sec-cards">
+      <h2 id="sec-cards">Cards</h2>
+      <div class="cards">
+        <article class="card elevated">
+          <h3>Metric</h3>
+          <p class="stat">98.2%</p>
+          <p class="cap">Uptime</p>
+        </article>
+        <article class="card">
+          <h3>Alert</h3>
+          <p class="alert-body">Deployment finished.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="sec-tokens">
+      <h2 id="sec-tokens">Tokens</h2>
+      <div class="swatches">
+        <div class="sw" style="background: #6366f1">#6366f1</div>
+        <div class="sw" style="background: #8b5cf6">#8b5cf6</div>
+        <div class="sw" style="background: #ec4899">#ec4899</div>
+        <div class="sw" style="background: #0ea5e9">#0ea5e9</div>
+      </div>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
